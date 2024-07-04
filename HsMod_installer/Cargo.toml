@@ -1,0 +1,12 @@
+[package]
+name = "HsMod_installer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2.5"
+include_dir = { version = "0.7.4", features = ["glob"] }
+log = "0.4.22"
+env_logger = "0.11.3"
+dialoguer = "0.11.0"
+
